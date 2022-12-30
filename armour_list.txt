@@ -1,0 +1,87 @@
+# Armour list
+
+
+'''
+
+
+armour.head = []
+armour.neck = []
+armour.chest = []
+armour.torso = []
+armour.left.upper_arm = []
+armour.right.upper_arm = []
+armour.left.forearm = []
+armour.right forearm = []
+armour.left.wrist = []
+armour.right.wrist = []
+armour.left.hand = []
+armour.right.hand = []
+armour.left.fingers = []
+armour.right.fingers = []
+armour.belt = []
+armour.pants = []
+armour.left.upper_leg = []
+armour.right.upper_leg = []
+armour.left.lower_leg = []
+armour.right.lower_leg = []
+armour.feet = []
+
+'''
+
+class armour
+
+"""
+doc string
+"""
+
+main armour
+
+chain mail armour
+
+leather studded armour
+
+dragon mail armour
+
+steel plate armour
+
+guard steel plate armour
+# clean, ornate armour 
+
+sleeveless leather armour
+
+clothing and under armour
+
+cloth 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

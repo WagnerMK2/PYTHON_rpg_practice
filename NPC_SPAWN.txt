@@ -1,0 +1,144 @@
+# npc_spawn
+
+import NPC_SPAWN
+impart NPC_TYPEs
+
+
+class npc(npc_class, p_level)
+	""" 
+	doc string here. this class is for all non player charicters and generates then through data that is passed on.
+	"""
+	
+	__init(npc_class)__
+	npc_gen_{npc_class}
+	
+		all/some npcs have a level
+			npcs meant to be killed or battle will have a level to base stats from
+		all npcs have stats
+			specials, dnd, skyrim, 
+		all npcs will have an alignment. I.E. {lawful Good}
+			[lawful good, neutral good, chaotic good, lawful neutral, NEUTRAL, chaotic neutral, lawful evil, neutral evil, chaotic evil]
+			with this certain gourps will be restricted to certain choices. I.E. guards can be neutral to lawful and maybe chaotic, but not evil.
+			each NPC_type will have its own list of possible alignments
+		all npcs have a current location
+	#	all npcs have a current stance
+			stand, crouch, kneel, on knees, prone, on back, on side, asleep, running, jogging, fast walk, sprint
+		all npcs have race
+		all npcs have sex(giggity)
+			male/female/attack_helicopter
+		all npcs have age
+			each generation function will have an age range and be weighted differently
+		all npcs have physical frame size
+			small, petite, tall and lanky, medium, athletic, fit, bodybuilder, LARGE, heavy set, overweight, 
+		all npcs have height
+			men will generally be taller than women and this will also be generated after frame size choice
+		all npcs have weight
+			heavier they are the slower they move, this will also effect their carry total per se
+		all npcs have a complexion
+			pasty white, white, tan, brown, black
+		all npcs have hair color
+			blonde, birty blonde, light brown, dark brown, black, white, silver, light red, dark red
+		all npcs have eye color, 
+			ice blue, brown, black, hazel, light blue, deep blue
+		all npcs have HP
+			HP = [] #based on base HP, modifiers, level and starting HP, etc
+		all npcs have inventory
+			inventory = []
+		all npcs have armour slots
+			can only equip if item has (location) = True attribute. I.E. helmet item will have {head = True}
+			chest = ; head = ; upper arm = ; lower arm = ; wrist = ; hand = ; torso = ; hips = ; upper leg = ; lower log = ; kankle = ; feets = ; neck = 
+		all npcs have weapon slots
+			left hand, right hand , both hands
+		some/all npcs have history/log
+			history = []
+		all npcs have physical description(words strung togeather/madlib)
+			"the tall man has a menacing apperance but it is tempered by a oddly warm smile. his deminor is intentional and his clothes are clean down to the posished buttons and rivits on his armour." 
+		some npcs have abilities
+			abilities list here
+		all npcs have skills
+			skills list here
+
+
+	gender =if gender_input "Male" 
+				return "Male"
+			if gender_input "Female"
+				return "female"
+			else 
+				return random_gender
+				
+			
+	level = if P_level over 1 and less than 10;
+				return random.choice(p_level plus or minus 3)
+			if P_level 11 and over and less than 20;
+				return random.choice(P_level plus or minus 4)
+			if P_level over 21 and less than 30;
+				return random.choice(p_level plus or minus 4)
+			if P_level over 31 and less than 40;
+				return random.choice(p_level plus or minus 5)
+			if P_level over 41 and less than 50;
+				return random.choice(p_level plus or minus 6)	
+
+	name = NPC_random_name_gen(gender) # first_name_gen + " " + last_name_gen
+
+	frame_size = use gender, npc_group to generate random.randomchoice({npc_type.frame_size[]})
+
+	age = use age, gender, frame size to get weight random.rand.choice({npc_type.age[]})
+
+	carry_weight = use str and weight to get carry weight
+
+	race = use npc_type to generate race
+
+	hair_color = use gender to generate hair.
+	eye_color = use gender to generate eye color.
+		reject impossible combinations of eye color and hair color and retry
+		
+	use npc_type and _____ to generate alignment
+
+	complexion = use race to generate complexion
+		reject impossible combinations
+
+	HP = dict()
+
+	inventory = []
+
+	current_location = either list or dict. "id" and cordinates
+
+	skills = input npc_type to generate skills
+
+	abilities = input npc_type to generate abilities
+
+	# ARMOUR EQUIP SLOTS
+
+	armour.head =
+	armour.neck =
+	armour.chest =
+	armour.torso =
+	armour.left.upper_arm =
+	armour.right.upper_arm =
+	armour.left.forearm =
+	armour.right forearm =
+	armour.left.wrist =
+	armour.right.wrist =
+	armour.left.hand =
+	armour.right.hand =
+	armour.left.fingers =
+	armour.right.fingers =
+	armour.belt =
+	armour.pants =
+	armour.left.upper_leg =
+	armour.right.upper_leg =
+	armour.left.lower_leg =
+	armour.right.lower_leg =
+	armour.feet =
+
+
+	# WEAPON SLOTS
+
+	weapon.left_hand =
+	weapon.right_hand =
+
+	history = []
+
+
+
+

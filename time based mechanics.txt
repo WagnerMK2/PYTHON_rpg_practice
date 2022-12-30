@@ -1,0 +1,9 @@
+Time based functions,
+
+you could time based roll for random encounters. or escalate the chance of time based random encounter. this would need a min/max for random encounter chance. roll for chance escalation time interval while the game is running. 
+
+could you time based response an npc.  
+
+
+you could let local time dictate the time in game. 
+

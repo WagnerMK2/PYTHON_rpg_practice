@@ -1,0 +1,61 @@
+NPC SPAWNING AND CREATION........
+
+
+order of creation
+call for group spawn > roll for group theme > decide unique or other group > call generation methods in parrelell to fill slots in the group > return nps to group member list > add group member list to location where called.
+
+
+1 tavern group type spawn choice,
+class = tavern_group
+<roll for unique groups and theme>
+
+2 tavern group makeup spawn choice,
+<roll for # of npcs in the theme restraints>
+<roll for unique individuals and the makeup of the slots previously rolled>
+
+3 tavern group individual spawn makeup,
+class npc_????????
+<parrellell process>
+choose, human traits, armour, inventory, weapons, gold
+
+use armour, weapon lists from general listing. inventory will need reballancing. certain groups will have swaths of equipment disallowed. this allows groups to have only certain armours and weapons. 
+
+
+tavern group individual speech tree,
+<roll for unique dialog>
+dialog trees can spawn quests and dungeon location reveals,
+
+groups = city guards, local magistrait guards, outlaws, tradesmen (baker, weaponsmith, armour smith, mason, clothes maker, leather worker, saddle maker, shipright, carpenter, painter/artist, sculpter, ), incognito bandits, incognito thiefs, mercenary group, plain travelers, family, what looks like a family, lone alchoholic, antique items trader, traveling master fighter at the end of a long career(weary), family on the run from a (minor,major)villian, a low level villian on a mission to find something, a group of adventurers looking for a new quest, a group of adventureres looking for a fourth for their next adventure(roll for adventure), sea captain down on his luck, sea captain back from plundering his wifes booty and going back to sea, pirate captain down on his luck(secretly super lucky)(no crew or boat, quest opportunity), beautiful woman icognito(maybe princess, maybe on  the run from something or someone), fisherman, group of fisherman, unluckiest guy in the world, the lone stranger, a ranger whom keeps to himself, a group of bounty hunters, 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# STAT GENERATION
+
+'''
+Need to generate stats as a whole in one method, or individually. in one method i can input npc_type and taylor the stats closer simpler
+'''
+
+def NPC_stats_gen(NPC_type)
+	
+	return Strength = S; Dexterity = D; Constitution = C; Intelligence = I; Wisdom = W; Charisma = Ch;
+	
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# courtesy of chatgpt
+
+def generate_stats():
+  stats = {}
+  stats['Strength'] = random.randint(1, 20)
+  stats['Dexterity'] = random.randint(1, 20)
+  stats['Constitution'] = random.randint(1, 20)
+  stats['Intelligence'] = random.randint(1, 20)
+  stats['Wisdom'] = random.randint(1, 20)
+  stats['Charisma'] = random.randint(1, 20)
+  return stats
+  
+  

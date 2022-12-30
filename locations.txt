@@ -1,0 +1,64 @@
+locations,,,,,,,
+
+
+
+
+tavern, common shoppe, hotel, stable, smith, carpenter shoppe, mystic shoppe
+
+
+
+
+TAVERN
+bar, bar stools, tables, chairs, booth table, both bench, fireplace, door, 
+
+time interval to roll for group encounter = 15 mins
+
+people = bartender and staff, patrons, local militia, travelers, local tradesmen
+
+
+each tavern can hace an ascii map with a location astrisk that flashes. many maps for each floor plan, many floor plans so the taverns are no t all the same.
+
+
+
+
+
+
+
+
+
+random group types = 
+class = npc_group 
+	roll for group theme
+	roll from size in theme
+	fill npc generation function
+	
+object = 
+
+
+
+notes = we could have sever different arrangements of taverns. this way when you go into a tavern it isnt just the same tavern.  we could also time based situation the tavern, pwople come and go based on the time of the rpg. ideally people can come and go while youa re sitting in the tavern doing nohting or doing another task.
+
+the groups of travelers and patrons can be randomly spawned. so each group has  a chance to spawn every 15 mins. up to the amount of tables in the tavern. when another spawns in they spent time by the door and eventually leave. as if they were waiting for a table to open up. 
+
+each group once in will follow a script and or min/ max in tavern stay time, with the inbetween beeing the random time to leave. 
+
+groups could have chance to fight one and other...
+
+each group could have people that you can interact with. they could have a script and convo treeeeeeee.
+
+each group spawn type will have descriptions, inventory and armour that randomly spawn. there will be uniques and rare spawn peoples that will have more narrow spawn requirements.
+
+
+
+
+
+
+
+
+
+
+COMMON SHOPPE
+
+shelves, counter
+
+

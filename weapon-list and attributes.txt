@@ -1,0 +1,338 @@
+weapons spawning and composition
+
+
+
+'''                 
+melee range = as long as your arms
+close range = as long as a long weapons swing
+short range = from you to the end of a room
+medium range = 80 ft
+long range = 150 - 300ft
+
+
+
+available wood materials = oak, walnut, pine,
+
+available other materials = bone, jade, obsidian, ruby, diamond, granite, tusk, 
+
+mettalic materials = silver, gold, brass, bronze, steel, iron, 
+
+item durability/quality grades:rarity = unserviceable:3, poor:6, fair:8, medium:10, good:7, great:4, fine:2, perfect:1
+
+if gold or silver in parts list value no less than medium, for values sake
+
+item RARITY status type = common, uncommon, rare, very rare, legendary, pearlesant
+'the master type is the spawn/status type. after that an item can dull and degrade over time. this brings in the quality durability level.
+Borderlands uses a classification system for gear that follows a color-coding system for RPGs (which was pioneered by Blizzard's Diablo). A common (white) gun would be average, an uncommon (green) would be slightly above average, a rare (blue) would be a premium gun, a very rare (purple) would be a very strong gun, and legendary (orange) guns are second only to pearlescent. The rarity of each gun is indicated by color as stated on the page of each gun.
+'
+
+UNIQUE items = unique items are pregenerated and do not go through the random generation proccess except for its various stats, they will be based on level, and have a narrow window for random stats that it spawns with.
+each unique weapon will have flavor text as well as a paragraph lon description, and short history. it will enbew effects and possibly nerfs along with buffs. in the case of a cursed item it will be forever duable and sharp but will over time eat your hp.
+
+
+
+FLAVOR TEXT
+
+Flavor text is red text found on unique, legendary, and pearlescent weapons' item cards, just above any stat modifiers. Usually cryptic or humorous, these lines usually give a hint of what a weapon's special ability does, and are often a reference to a video game, movie, or any number of non-game things.
+
+
+
+'''
+
+
+
+
+SWORD 
+the handle and pommel are able to be used for melee at melee range, shape and heft of the pommel should add to the melee damage.
+close range
+sharp and piercing
+
+pommel, grip, rain guard, blade
+
+sub equipment = scabbard(optional), sharpening kit
+
+grip materials = 
+rain guard =
+blade = 
+
+effects of condition = 
+
+<expand on sword types>
+scimitar
+broadsword
+rapier
+katana
+tanto
+gladius
+spatha
+claymore(2hand)
+cutlass
+
+
+
+
+
+
+
+MACE
+close range
+blunt 
+percing if ball has blades or spikes
+
+handle, shaft, head
+
+handle material = 
+shaft = 
+head = 
+
+effects of condition = 
+
+
+
+
+
+CROSSBOW
+blunt, melee range is used with out launching 
+medium range
+projectile launcher
+
+limbs,string, stock, cam and trigger, quiver, sight, 
+
+limbs = 
+string = 
+stock = 
+cam and trigger = 
+quiver = 
+sight = 
+
+effects of condition = 
+
+
+
+
+
+LONG BOW
+blunt close range if not launching, melee
+projectile launcher
+long and medium range
+
+grip, limb, string
+
+sub equipment = quiver
+
+grip = 
+limb = 
+string = 
+
+effects of condition = 
+
+
+
+
+
+
+SHORT BOW
+blunt if not launching, melee
+medium range
+projectile launcher
+
+handle, limb, string
+
+sub equipment = quiver
+
+
+handle = 
+limb = 
+string = 
+
+effects of condition = 
+
+
+
+
+
+
+DAGGER AND KNIFE
+
+very close range
+sharp and piercing
+
+rear bolster, handle, front bolster, blade, point
+
+sub equipment = scabbard
+
+effects of condition = 
+
+notes = kukri, karambit, 
+
+
+
+
+Hammer attributes and makeup
+close range
+blunt
+
+handle, shaft, heat
+
+effects of condition = 
+
+
+
+
+
+
+NAGINTA (bladed spear?)
+blunt, sharp, peirce
+close range, melee range
+
+handle, blade
+
+handle = 
+blade = 
+
+effects of condition = 
+
+
+
+
+
+
+
+SPEAR
+blunt, percing, sharp
+
+handle, head
+
+handle = 
+head = 
+
+effects of condition = tip more prone to break off and reduce to staff, more prone to break in half.
+
+
+
+
+SLING
+projectile launcher
+
+
+
+
+medium range
+
+effects of condition = arruracy degrades, more prone to break
+
+
+
+
+CLUB
+blunt
+
+handle, shaft
+
+effects of condition = more prone to break
+
+
+
+
+
+MAGIC WAND 
+
+ranges and close range
+not reallt for striking, if used to strike, chance to break
+
+material, shape, decor
+
+effects of condition = magic less prone to work the first time, not as strong, more prone to miscast
+
+
+
+
+
+SHURIKEN
+projectile
+short range
+
+material = 
+
+
+how many points?
+
+effects of condition = 
+
+
+
+
+
+HIDDEN ARM DEPLOYABLE KNIVES
+peircing, sharp
+
+arm wrap, deploy mechanism, blade
+
+arm wrap = 
+deploy mechanism = 
+blade = 
+
+
+effects of condition = 
+
+
+
+
+
+
+CROSSBOW BOLT
+projectile
+
+tail, shaft, head
+
+tail = various feathers
+shaft = types of wood and metals available
+head = obsidian, granit, brass, bronze, iron, steel
+
+bolt not able to be used in a bow
+
+effects of condition = 
+
+
+
+
+
+
+ARROW
+projectile
+
+tail, shaft, head
+
+tail = feathers, various types
+shaft = types of wood or available metals
+head = obsidian, granit, brass, bronze, iron, steel
+
+an arrow is generally too long for a crossbow
+
+effects of condition = 
+
+notes "arrows can have different tips and abilities, i.e. grappel hook arrow, flaming arrow, blunt arrow, sharp 2 sided head, sharp 4 sided head, 
+"
+
+
+
+
+
+STAFF
+blunt
+close range
+
+material = 
+
+effects of condition = low enough condition increases chance to break
+
+
+
+BATON(S)
+blunt
+close range
+
+material = 
+
+effects of condition = lowe condition equals higher chance to break 
+

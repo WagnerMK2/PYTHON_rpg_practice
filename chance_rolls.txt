@@ -1,0 +1,26 @@
+ROLLS for chance
+--------------------------------------------------------------------------------
+
+import secret
+import random
+
+def roll(sides)
+	x = []
+	for i in range(64);
+		x.append(random.randint(1,{sides}))
+	y = secret.choice(x)
+	return y
+	
+	
+	
+def random_gender()
+	x = []
+	for i in range(64);
+		x.append(random.randint(1,20))
+	if secret.choice(x) <= 11;
+		return "Male"
+	else;
+		return "Female"
+		
+
+
